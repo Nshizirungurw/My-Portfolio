@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+.title{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    margin: 30px 200px;
+}
+.name span{
+    font-size: 30px;
+    font-family: cursive;
+}
+.nav-bar ul{
+    display: flex;
+    margin-right: 120px;
+
+}
+.nav-bar ul li{
+    list-style: none;
+    margin: 30px 20px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: cursive;
+}
+.nav-bar ul li a:hover{
+    color: white;
+}
+.body{
+    display: flex;
+    width: 100%;
+}
+.image{
+    max-width: 50%;
+    height: 30rem;
+}
+.image img{
+    width: 50%;
+    height: 20rem;
+    margin: 60px 300px;
+    border-radius: 100%;
+}
+.content{
+    width: 50%;
+    height: 30rem;
+}
+.content .cont{
+    margin-top: 150px;
+}
+.parth{
+    font-weight: 1000;
+    font-family: cursive;
+}
+.heading-one{
+    font-family: cursive;
+}
+.social{
+    width: 100%;
+    height: auto;
+}
+.links{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.link a{
+    text-decoration: none;
+}
+.links a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    
+}
+#project{
+    width: 80%;
+    height: 80vh;
+    background-color: gray;
+    border-radius: 20px;
+    margin-left: 10%;
+    display: none;
+    position: fixed; 
+    padding-top: 10px;
+    top: 20px;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.9); 
+}
+#close{
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: gray;
+}
+#close:hover{
+    color: red;
+}
+.myname{
+    color: white;
+    font-size: 25px;
+    margin: 30px 50px;
+    font-family: cursive;
+}
+#my-project{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    margin-left: 20%;
+}
+.first-project{
+    width: 40%;
+    height: 50vh;
+    background-color: white;
+    margin: 20px 20px;
+    border-radius: 5px;
+}
+.second-project{
+    width: 40%;
+    height: 50vh;
+    background-color: white;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.first-project-name{
+    font-size: 40px;
+    margin: 70px 40px;
+}
+.first-project-name a{
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+.first-project-name a:hover{
+    color: gray;
+}
+#contact{
+    width: 80%;
+    height: 80vh;
+    background-color: gray;
+    border-radius: 20px;
+    margin-left: 10%;
+    display: none;
+    position: fixed; 
+    padding-top: 10px;
+    top: 20px;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.9); 
+}
+.inform{
+    width: 30%;
+    height: 20vh;
+    margin-left: 36%;
+    margin-top: 10%;
+}
+.get{
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: 100;
+    font-family: cursive;
+    color: gray;
+}
+.hedi{
+    margin-left: 70px;
+    font-weight: 1000;
+    font-family: cursive;
+    color: rgb(202, 202, 202);
+}
+#media{
+    width: 97%;
+    height: 10vh;
+    background-color: lightgray;
+    margin-left: 1.5%;
+    border-radius: 10px;
+    display: flex;
+
+}
+.media-links{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.media-links a{
+    text-decoration: none;
+    display: flex;
+    margin-left: 40px;
+}
+.media-links a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.media-links a p{
+    margin: 7px;
+    color: blue;
+}
+.media-links a p:hover{
+    color: gray;
+}

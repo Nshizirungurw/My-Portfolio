@@ -3,22 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/Link/style.css">
+    <script src="./assets/Link/script.js"></script>
     <title>My Portfolio</title>
 </head>
 <body>
     <div class="title">
         <div class="name">
-            <span><strong>Name: </strong>Nshizirungu shema christian</span>
+            <span>Nshizirungu shema christian</span>
         </div>
         <div class="nav-bar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Experiance</a></li>
-            </ul>
+            <!-- <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a onclick="openProject()">Project</a></li>
+                <li><a onclick="openContact()">Contact</a></li>
+            </ul> -->
         </div>
     </div>
-    <div class="body"></div>
+    <div class="body">
+        <div class="image">
+            <img src="./assets/image/5587189.jpg" alt="My profile image">
+        </div>
+        <div class="content">
+            <div class="cont">
+                <p class="parth">Hello,i'm</p>
+                <h1 class="heading-one">Nshizirungu Shema Christian</h1>
+                <p class="parth">Front-end Developer || UI/UX Designer</p>
+            </div>
+            <div class="social">
+                <span class="links">
+                    <a href="https://www.instagram.com/nshizirungurw/">
+                        <img src="./assets/image/instagram.png" alt="MY instagram profile">
+                    </a>
+                    <a href="https://www.linkedin.com/in/shema-christian-020837300/">
+                        <img src="./assets/image/linkedin.png" alt="My LinkedIn profile">
+
+                    </a>
+                    <a href="https://github.com/Nshizirungurw">
+                        <img src="./assets/image/github.png" alt="My GitHub profile">
+                    </a>
+                </span>
+                
+            </div>
+        </div>
+    </div>
+    <div id="project" >
+        <strong id="close" onclick="closeProject()">&times;</strong>
+        <div class="myname">Hello I'm <strong>Nshizirungu shema christian</strong> I worked on two project</div>
+        <div id="my-project">
+            <div class="first-project">
+                <p class="first-project-name"><a href="">Library Management System</a></p>
+            </div>
+            <div class="second-project">
+                <p class="first-project-name"><a href="">Portfolio</a></p>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <div id="contact" >
+        <strong id="close" onclick="closeContact()">&times;</strong>
+        <div class="inform">
+            <p class="get">Get in Touch</p>
+            <h1 class="hedi">Contact me</h1>
+        </div>
+        <div id="media">
+            <span class="media-links">
+                <a href="https://mail.google.com/mail/u/0/#search/nshizirungushizon%40gmail.com?compose=new">
+                    <img src="./assets/image/email.png" alt="My email">
+                    <p>nshizirungushizon@gmail.com</p>
+                </a>
+                <a href="https://www.instagram.com/nshizirungurw/">
+                    <img src="./assets/image/instagram.png" alt="MY instagram profile">
+                    <p>Instagram</p>
+                </a>
+                <a href="https://www.linkedin.com/in/shema-christian-020837300/">
+                    <img src="./assets/image/linkedin.png" alt="My LinkedIn profile">
+                    <p>LinkedIn</p>
+
+                </a>
+                <a href="https://github.com/Nshizirungurw">
+                    <img src="./assets/image/github.png" alt="My GitHub profile">
+                    <p>GitHub</p>
+                </a>
+            </span>
+
+        </div>
+        
+
+    </div>
+
+
     
 </body>
 </html>
